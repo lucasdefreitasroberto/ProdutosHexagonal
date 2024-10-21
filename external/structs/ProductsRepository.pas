@@ -57,6 +57,7 @@ begin
   LCDS.FieldByName('QntStock').DisplayLabel := 'Quant.Estoque';
 
   Result := LCDS;
+  //Falta Destruir...
 end;
 
 end.

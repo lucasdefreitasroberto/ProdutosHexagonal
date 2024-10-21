@@ -31,7 +31,9 @@ uses
 
 constructor TMain.Create;
 begin
+ {$IFDEF DEBUG}
   ReportMemoryLeaksOnShutdown := True;
+ {$ENDIF}
 
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
